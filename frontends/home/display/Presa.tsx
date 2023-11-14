@@ -1,4 +1,6 @@
 import { Cemjsx } from "cemjs-all"
+import { Static } from "cemjs-core"
+
 import logoBig from '@images/arrow.png'
 import logoCem from '@svg/cryptoEmergency.svg'
 
@@ -8,7 +10,7 @@ export default function () {
       <div class="presa-banner">
         <div class="presa-banner_desc">
           <h1 class="title-main">
-            <span>Экспертный курс о том</span>
+            <span>Экспертный курс о том{Static.test}</span>
             <span>как зарабатывают</span>
             <span>на криптовалюте</span>
           </h1>

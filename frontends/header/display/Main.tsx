@@ -82,7 +82,7 @@ const RenderMobileMenuSocials = function ({ items }) {
 export default function () {
   return (
     <div class="header_inner">
-      <a href="/" class="header_logo">
+      <a href="/" class="header_logo" onclick={this.Fn.link}>
         <img src={logoWhite} alt="Academy Crypto Emergency" />
       </a>
       <nav class="header_nav">
